@@ -12,9 +12,10 @@ public class GridHandler : MonoBehaviour
     private const byte maxColSize = 7;
     #endregion
 
-    private float rows = 3;
-    private float cols = 3;
+    public float rows { get; private set; } = 3;
+    public float cols { get; private set; } = 6;
 
+    
     public RectTransform[,] rectTransforms { get; private set; } = new RectTransform[maxColSize, maxRowSize];
     private GameObject mainPanel;
     public Color[] buttonColors = { Color.white, Color.blue, Color.red };

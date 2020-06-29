@@ -42,9 +42,4 @@ public class ResizeButtonHandler : MonoBehaviour
         }
         gridHandler.ChangeGridSize(resizeDirection);
     }
-
-    public void ChangeColor()
-    {
-        
-    }
 }
